@@ -196,7 +196,7 @@ export default function Form() {
                 <div className="grid grid-cols-1 md:grid-cols-5 gap-4 mb-3">
                   {/* Servicio */}
                   <div className="bg-blue-100 p-3 rounded-lg">
-                    <h3 className="font-bold text-blue-800">Servicio</h3>
+                    <h3 className="font-bold text-blue-800">Autolavado</h3>
                     <p className="text-blue-600">
                       {categories.find((cat) => cat.id === record.category)
                         ?.name}
