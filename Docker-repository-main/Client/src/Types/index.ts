@@ -5,7 +5,10 @@ export type Category = {
     name: string;
 }
 export type Activity = {
-    category: number;
-    name: string;
-    calorias: number;
+
+  category: number;
+  name: string;
+  calorias: number;
+  color: string;
+  placa: string;
 }
