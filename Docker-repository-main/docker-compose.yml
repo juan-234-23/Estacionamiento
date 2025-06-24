@@ -2,7 +2,7 @@ services:
   client:
     build: ./Client
     ports:
-      - "3010:80"
+      - "3011:80"
     restart: unless-stopped
     depends_on:
       - server

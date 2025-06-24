@@ -1,6 +1,10 @@
+import colors from 'colors';
 import server from "./server";
 
-server.listen(3000, () => {
-    console.log('Server is running on port 3000');
-    console.log('http://localhost:3000');
+
+const port = 3000;
+server.listen(port, () => {
+    console.log( colors.cyan.bold (`REST API en el puerto: ${port}`));
+    console.log( colors.cyan.bold (`http://localhost:${port}`));
 });
+

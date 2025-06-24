@@ -27,3 +27,4 @@ EXPOSE 80
 
 # Ejecuta Nginx en primer plano
 CMD ["nginx", "-g", "daemon off;"]
+
